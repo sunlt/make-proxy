@@ -1,0 +1,32 @@
+{
+  "name": "make-proxy",
+  "version": "1.0.0",
+  "description": "a forwarding HTTP requests and modify the hosts file tool.",
+  "main": "main.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sunlt/make-proxy.git"
+  },
+  "keywords": [
+    "cli",
+    "proxy",
+    "command"
+  ],
+  "author": "sunlt",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.9.0",
+    "connect": "^3.4.0",
+    "proxy-middleware": "^0.15.0"
+  },
+  "bugs": {
+    "url": "https://github.com/sunlt/make-proxy/issues"
+  },
+  "license": "MIT",
+  "preferGlobal": "true",
+  "bin": {
+    "make-proxy": "./bin/make-proxy"
+  }
+}
