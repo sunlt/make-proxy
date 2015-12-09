@@ -1,6 +1,6 @@
 {
   "name": "make-proxy",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a forwarding HTTP requests and modify the hosts file tool.",
   "main": "main.js",
   "scripts": {},

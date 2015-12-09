@@ -8,11 +8,11 @@ var program = require('commander');
 var hostile = require('hostile');
 
 program
-  .version('0.0.1')
-  .option('-t, --target', 'target server [http://127.0.0.1:8080] ')
-  .option('-p, --port', 'listen port [80]')
-  .option('-h, --host', 'bind domain to hosts file [wwww.google.com]')
-  .option('-d, --dir', 'origin virtual directory [/dir1/....]')
+  .version('1.0.1')
+  .option('-t, --target [value]', 'target server [http://127.0.0.1:8080] ')
+  .option('-p, --port <n>', 'listen port [80]')
+  .option('-h, --host [value]', 'bind domain to hosts file [wwww.google.com]')
+  .option('-d, --dir [value]', 'origin virtual directory [/dir1/....]')
   .parse(process.argv);
 
 
